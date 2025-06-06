@@ -1,2 +1,120 @@
-# Myweb
-เว็บข้อมูลส่วนตัว
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaiyanun Talalai - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      margin: 0;
+      padding: 2cm;
+      width: 21cm;
+      height: 29.7cm;
+      box-sizing: border-box;
+    }
+    .header {
+      background-color: #ff6f3c;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .section {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-left: 8px solid #cccccc;
+      border-radius: 6px;
+    }
+    .section h2 {
+      color: #ff6f3c;
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .info-item {
+      margin-bottom: 6px;
+    }
+    .icon {
+      margin-right: 8px;
+      color: #ff6f3c;
+    }
+    .awards-placeholder {
+      height: 150px;
+      background-color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #999;
+      font-style: italic;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Chaiyanun Talalai (Chokun)</h1>
+    <p>Digital Business Technology Student</p>
+  </div>
+
+  <div class="section">
+    <h2>1. Personal Information</h2>
+    <ul>
+      <li class="info-item"><span class="icon">📅</span>Date of Birth: July 3, 2003 (Age: 20)</li>
+      <li class="info-item"><span class="icon">🏠</span>Address: 240/2 Moo 20, Ban Phai Subdistrict, Ban Phai District, Khon Kaen 40110</li>
+      <li class="info-item"><span class="icon">📞</span>Phone: 082-907-7348</li>
+      <li class="info-item"><span class="icon">✉️</span>Email: talalaichaiyanun@gmail.com</li>
+      <li class="info-item"><span class="icon">📘</span>Facebook: Chokoon Talalai</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Education</h2>
+    <p>Currently studying at <strong>Khon Kaen Vocational College</strong></p>
+    <p>Major: <strong>Digital Business Technology</strong></p>
+  </div>
+
+  <div class="section">
+    <h2>3. Skills</h2>
+    <ul>
+      <li>✔️ English communication</li>
+      <li>✔️ Design skills</li>
+      <li>✔️ Microsoft Office</li>
+      <li>✔️ Adobe Photoshop and Illustrator</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Hobbies</h2>
+    <ul>
+      <li>🎮 Playing games</li>
+      <li>🎬 Watching movies</li>
+      <li>🎨 Drawing</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Personality Traits</h2>
+    <ul>
+      <li>😊 Cheerful and sociable</li>
+      <li>⚡ Fast learner</li>
+      <li>🔄 Adaptable</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Awards & Projects</h2>
+    <div class="awards-placeholder">
+      [ Placeholder for Images and Descriptions of Projects or Certificates ]
+    </div>
+  </div>
+</body>
+</html>
+
